@@ -1,19 +1,35 @@
-@import "./utils/variables";
-@import "./utils/functions";
-@import "./utils/mixins";
-@import "./utils/extensions";
-
+@import"./utils/mixins";
 @import "./base/base";
 @import "./base/typography";
 
-@import "./components/buttons";
 
+@import"./components/animations";
+@import"./components/buttons";
+@import"./components/cards";
+@import"./components/cardsMenu";
+
+
+@import"./layout/container";
+@import"./layout/explorer";
+@import"./layout/fonctionnements";
+@import"./layout/restaurants";
+@import "./layout/form";
 @import "./layout/header";
 @import "./layout/nav";
-@import "./layout/container";
-@import "./layout/form";
+@import"./layout/footer";
+@import"./layout/menu";
+@import"./layout/Palettedugoût";
 
 
-@import "./pages/work";
-@import "./pages/about";
-@import "./pages/project";
+
+@import"./utils/extensions";
+@import "./utils/functions";
+@import"./utils/variables";
+
+
+
+
+
+
+
+
