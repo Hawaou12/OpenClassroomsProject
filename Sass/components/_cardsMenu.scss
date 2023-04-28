@@ -26,6 +26,11 @@
             transform: translateX(-25px);
             right: 30px;
         }
+
+        .check {
+            color: #FFFFFF;
+            font-size: 20px;
+        }
     }
 
     .textMenu {
@@ -33,7 +38,7 @@
         justify-content: space-between;
 
         .prixMenu {
-            right: 8px;
+            right: 16px;
             position: absolute;
             top: 40px;
             font-weight: bold;

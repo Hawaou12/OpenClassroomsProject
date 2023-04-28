@@ -46,6 +46,7 @@ a {
   z-index: 1;
   visibility: hidden;
   animation: apparition 3s linear;
+  background-color: #f7f2f2;
 }
 
 .cercle {
@@ -314,12 +315,16 @@ a {
   transform: translateX(-25px);
   right: 30px;
 }
+.blockMenu article.cardsMenu .check {
+  color: #FFFFFF;
+  font-size: 20px;
+}
 .blockMenu .textMenu {
   display: flex;
   justify-content: space-between;
 }
 .blockMenu .textMenu .prixMenu {
-  right: 8px;
+  right: 16px;
   position: absolute;
   top: 40px;
   font-weight: bold;
@@ -757,16 +762,16 @@ article.commander {
   }
   .Palettedugoût h2 {
     animation-delay: 6s;
-    margin-left: 12vw;
+    margin-left: 18vw;
   }
   .Palettedugoût .vector {
-    margin-left: 35vw;
+    margin-left: 36vw;
   }
   .Palettedugoût .vector1:hover {
     opacity: 1;
   }
   .Palettedugoût .vector1 {
-    margin-left: 35vw;
+    margin-left: 36vw;
     color: transparent;
     background-image: linear-gradient(to top, #9356dc, #ff79da);
     opacity: 0;
