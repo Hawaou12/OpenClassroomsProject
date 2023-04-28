@@ -6,7 +6,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
 
-
     article.cardsMenu {
         height: 50px;
         position: relative;
@@ -27,14 +26,11 @@
             transform: translateX(-25px);
             right: 30px;
         }
-
-
     }
 
     .textMenu {
         display: flex;
         justify-content: space-between;
-
 
         .prixMenu {
             right: 8px;
@@ -59,6 +55,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
+
         }
 
         p {
@@ -70,10 +67,14 @@
         }
     }
 
+    :hover.textMenu {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 65%;
+    }
+
 }
-
-
-
 
 .check {
     background-color: #99e2d0;

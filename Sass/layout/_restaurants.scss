@@ -16,10 +16,11 @@
     }
 }
 
-@media only screen and (min-width: 1024px){
-    .restaurants{
+@media only screen and (min-width: 1024px) {
+    .restaurants {
         padding-bottom: 5px;
     }
+
     .restaurants h2 {
         margin-left: 0;
     }
@@ -28,7 +29,7 @@
 
 // screen cards
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
 
     .cards {
         margin: auto;
@@ -53,7 +54,7 @@
         .vector1:hover {
             opacity: 1;
         }
-    
+
         .vector1 {
             margin-left: 39vw;
             color: transparent;
@@ -66,12 +67,12 @@
         .badge {
             margin: 54px 34vw;
         }
-    
+
     }
 
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
 
     .cards {
         display: grid;
